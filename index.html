@@ -3,9 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="Home - Usaha Kopi">
+    <title>Kopi Kita</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <header>
+        <div class="container">
+            <h1>Kopi Kita</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">Tentang</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#contact">Kontak</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="container">
+            <h2>Nikmati Kopi Terbaik di Kopi Kita</h2>
+            <p>Kualitas kopi pilihan untuk momen spesial Anda.</p>
+        </div>
+    </section>
+    <section id="menu">
+        <div class="container">
+            <h3>Menu Kopi</h3>
+            <div class="menu-items">
+                <div class="menu-item" onclick="showDetails('Espresso', 'Kopi hitam dengan rasa kuat dan pekat.', 'espresso.jpg')">
+                    <img src="espresso.jpg" alt="Espresso">
+                    <h4>Espresso</h4>
+                    <p>Rp 20.000</p>
+                </div>
+                <div class="menu-item" onclick="showDetails('Latte', 'Kopi dengan campuran susu yang lembut.', 'latte.jpg')">
+                    <img src="latte.jpg" alt="Latte">
+                    <h4>Latte</h4>
+                    <p>Rp 25.000</p>
+                </div>
+                <div class="menu-item" onclick="showDetails('Cappuccino', 'Kopi susu dengan busa yang tebal.', 'cappuccino.jpg')">
+                    <img src="cappuccino.jpg" alt="Cappuccino">
+                    <h4>Cappuccino</h4>
+                    <p>Rp 25.000</p>
+                </div>
+                <div class="menu-item" onclick="showDetails('Cold Brew', 'Kopi dingin yang diseduh perlahan.', 'coldbrew.jpg')">
+                    <img src="coldbrew.jpg" alt="Cold Brew">
+                    <h4>Cold Brew</h4>
+                    <p>Rp 30.000</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <img id="modal-image" src="" alt="Menu Item">
+            <h4 id="modal-title"></h4>
+            <p id="modal-description"></p>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Kopi Kita. Semua Hak Dilindungi.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
 </body>
 </html>
