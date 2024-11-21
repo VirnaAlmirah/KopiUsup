@@ -136,6 +136,43 @@ body, ul {
     color: #333;
   }
 
+  /* Gaya untuk section maps */
+#maps {
+  text-align: center;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: 30px auto;
+  border-radius: 10px;
+}
+
+#maps h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+#maps p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+/* Kontainer untuk peta */
+.map-container {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.map-container iframe {
+  width: 100%;
+  height: 450px;
+  border: 0;
+}
+
   @media (max-width: 768px) {
     .menu-container {
       flex-direction: column;
@@ -183,5 +220,6 @@ body, ul {
     width: 100%;
     padding: 50px 0px 50px 0px;
     margin-top: 50px;
+  }
   
   
