@@ -221,5 +221,19 @@ body, ul {
     padding: 50px 0px 50px 0px;
     margin-top: 50px;
   }
+
+  body {
+    background-image: url('/bg\ kosup.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #f3f3f3;
+}
+.content {
+    text-align: center;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin-top: 20%;
   
   
