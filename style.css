@@ -262,3 +262,18 @@ header.hero {
       font-size: 2rem;
   }
 }
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-image: url('/bg\ kosup.jpg'); 
+  background-size: cover; 
+  background-position: center; 
+}
+
+.container {
+  color: white; 
+  text-align: center; 
+  padding: 20px;
+}
