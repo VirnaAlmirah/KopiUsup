@@ -9,8 +9,8 @@ body {
   margin: 0;
   padding: 0;
   height: 100vh;
-  background-image: url('/bg\ kosup.jpg'); 
-  background-size: cover; 
+  background-image: url('bg-kosup.jpg'); 
+  background-size: cover;
   background-position: center; 
   font-family: Arial, sans-serif;
   color: #333;
