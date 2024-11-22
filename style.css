@@ -27,7 +27,7 @@ a {
 header.hero {
   position: relative;
   height: 100vh;
-  background: url('images/hero-coffee.jpg') no-repeat center center/cover;
+  background: url('/bg-kosup.jpg') no-repeat center center/cover;
   color: white;
   display: flex;
   flex-direction: column;
